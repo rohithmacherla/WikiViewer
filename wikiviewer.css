@@ -1,0 +1,31 @@
+body {
+    background-color: lightpink;
+    border: 3.5px solid white;
+    height: 97vh;
+    box-sizing: border-box;
+}
+.wrap {
+    height: 100%;
+    width: 65%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+p , h1 {
+    margin: 0;
+}
+.top {
+    background-color: lightgrey;
+    height: 30%;
+    font-family: "Lobster", cursive;
+    position: relative;
+}
+#heading {
+    text-align: center;
+    position: relative;
+    top: .6em;
+    font-size: 4em;
+}
+.bottom {
+    background-color: white;
+    height: 60%;
+}
