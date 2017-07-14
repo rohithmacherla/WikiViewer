@@ -8,7 +8,7 @@ body {
     height: 100%;
     width: 65%;
     margin: 0 auto;
-    background-color: lightblue;
+    background-color: lightgrey;
 }
 p , h1 {
     margin: 0;
@@ -27,20 +27,20 @@ p , h1 {
 }
 .bottom {
     background-color: white;
-    height: 65%;
+    height: 70%;
 }
 #input {
     position: absolute;
     height: 10%;
     width: 60%;
     bottom:2.5em;
-    left: 7em;
+    left: 9em;
     text-align: right;
     font-size: 14px;
 }
 #search {
     position: absolute;
-    right: 18em;
+    right: 16em;
     height: 2.5em;
     bottom: 3.2em;
     border-radius: 10%;
@@ -51,3 +51,22 @@ p , h1 {
     background-color: black;
     color: white;
 }
+.entry {
+    box-sizing: border-box;
+    border: .1px solid black;
+    height: 14.2%;
+    width: 100%;
+    display: flex;
+}
+.left,.right {
+    width: 5%;
+}
+.left:hover, .right:hover {
+    background-color: lightblue;
+}
+.main {
+    width: 90%;
+    background-color: white;
+}
+
+
