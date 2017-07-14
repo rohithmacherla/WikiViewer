@@ -28,6 +28,7 @@ p , h1 {
 .bottom {
     background-color: white;
     height: 70%;
+    display: none;
 }
 #input {
     position: absolute;
@@ -48,6 +49,19 @@ p , h1 {
     transition: .7s;
 }
 #search:hover {
+    background-color: black;
+    color: white;
+}
+#random {
+    position: absolute;
+    bottom: 3.2em;
+    right: 10em;
+    height: 2.5em;
+    border-radius: 10%;
+    background-color: deepskyblue;
+    transition: .7s;
+}
+#random:hover {
     background-color: black;
     color: white;
 }
@@ -76,16 +90,25 @@ p , h1 {
     padding-left: .6em;
     height: 3.3em;
     width: 7em;
-    padding-top: .3em;
+    padding-top: .5em;
     text-align: center;
     border-right: solid black 2px;
     box-sizing: border-box;
     overflow: scroll;
+    font-size: 1.3em;
 }
 p {
     padding-left: 1em;
+    height: 3.3em;
+    overflow: scroll;
 }
 a {
     color: deepskyblue;
+}
+#pic {
+    top:17em;
+    left: 19em;
+    position: relative;
+    border-radius: 10%;
 }
 
