@@ -41,7 +41,7 @@ p , h1 {
 }
 #search {
     position: absolute;
-    right: 16em;
+    right: 12.5em;
     height: 2.5em;
     bottom: 3.2em;
     border-radius: 10%;
@@ -55,7 +55,7 @@ p , h1 {
 #random {
     position: absolute;
     bottom: 3.2em;
-    right: 10em;
+    right: 7em;
     height: 2.5em;
     border-radius: 10%;
     background-color: deepskyblue;
